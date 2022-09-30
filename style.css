@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: rgb(13, 12, 20);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------------------------- */
+
+header {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ban {
+  /* background-color: blue; */
+  width: 5%;
+  height: 100%;
+  padding: 50px;
+}
+
+.ban img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ----------------------- */
+.section1 {
+  /* background-color: green; */
+  width: 50%;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: -1;
+}
+
+.headerblctxt {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.title {
+  /* background-color: red; */
+  /* width: 80%;
+  height: 80%; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 2rem;
+  text-align: start;
+}
+
+.title h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.title p {
+  font-size: 1.5rem;
+}
+
+.media {
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.media .media_inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+
+/* ---------------------------------- */
+.section2 {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  padding: 2rem;
+}
+
+.quote {
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+}
+.quote h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+.quote .imgbox {
+  /* background-color: rgb(205, 99, 99); */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------ */
+.tableau {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1.5);
+  padding: 3rem;
+}
+
+table,
+td {
+  border: 1px solid black;
+}
+table {
+  width: 74%;
+}
+thead,
+tfoot {
+  color: rgb(243, 243, 243);
+  background-color: rgb(8, 8, 8);
+}
+
+/* ---------------------------- */
+
+.hobbies h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+
+.hobbies ul {
+  font-size: 18px;
+}
+/* --------------------------- */
+
+.countonme h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+
+/* ------------------------- */
+
+.story h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 2rem;
+}
